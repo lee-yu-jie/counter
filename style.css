@@ -1,0 +1,29 @@
+body {
+  background-image: linear-gradient(to right top, rgb(119, 162, 231),rgb(50, 94, 241));
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.counter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.zero {
+  cursor: pointer;
+  color: orange;
+  border: 1px dashed orange;
+  padding: 3px 5px;
+}
+.up, .down {
+  color: rgb(96, 96, 96);
+  font-size: 70px;
+  cursor: pointer;
+  opacity: 0.5;
+}
+.number{
+  color: white;
+  font-size: 70px;
+}
